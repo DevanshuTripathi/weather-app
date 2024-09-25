@@ -1,6 +1,10 @@
 function Details(props) {
     return (
-        <p>Hello</p>
+        <div className="deet">
+            {props.data}
+            <br />
+            {props.info}{props.sign}
+        </div>
     )
 }
 

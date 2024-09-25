@@ -1,10 +1,67 @@
-body{
-    display:flex;
-    align-items: center;;
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
 }
 
-.App{
-    display:flex;
-    flex-direction:column;
+.Form {
+    margin-bottom: 20px; /* Space between the form and the card */
+}
+
+.Card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; /* Make it responsive */
+    max-width: 400px; /* Set a maximum width */
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Temp {
+    font-size: 24px;
+    margin: 0px;
+}
+
+.details {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:0px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin-left:0px;
+    padding: 0px;
+    gap: 10px;
+    width: 100%;
+    margin-right:13px;
+}
+
+.deet {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 75px;
+    height: 75px;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    font-size: 18px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
 }

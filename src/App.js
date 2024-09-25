@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { useEffect, useState, useRef } from 'react';
 import Card from './components/card';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
 
@@ -39,8 +40,8 @@ function App() {
     <div className="App">
       <div className="Form">
       <form onSubmit={handleSubmit}>
-        <input type="text" ref={city} />
-        <input type="submit" />
+        <input type="text" className="form-control" ref={city} />
+        <input type="submit" className="btn btn-primary" />
       </form>
       </div>
       <div className = "Display" >
