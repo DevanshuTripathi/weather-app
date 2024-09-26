@@ -4,8 +4,7 @@ function Card(props) {
 
     return (
         <div className="Card">
-            <img src={props.data.condition.icon} />
-            <p className="Temp"> {props.data.temp_c}°C </p>
+            <p className="Temp"> {Math.trunc(props.data.temp_c)}°C</p>
             <div className="details">
                 <ul>
                     <li><Details info={props.data.humidity} data="humidity" sign="%" /></li>

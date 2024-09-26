@@ -3,7 +3,7 @@ function Details(props) {
         <div className="deet">
             {props.data}
             <br />
-            {props.info}{props.sign}
+            {Math.trunc(props.info)}{props.sign}
         </div>
     )
 }
